@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Something Special For You 💕</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating background emojis -->
+    <div class="floating-emoji" style="top: 10%; left: 5%; animation-delay: 0s;">💕</div>
+    <div class="floating-emoji" style="top: 20%; right: 10%; animation-delay: 1s;">✨</div>
+    <div class="floating-emoji" style="top: 50%; left: 8%; animation-delay: 2s;">🌸</div>
+    <div class="floating-emoji" style="top: 70%; right: 5%; animation-delay: 3s;">💖</div>
+    <div class="floating-emoji" style="top: 30%; left: 15%; animation-delay: 4s;">🦋</div>
+    <div class="floating-emoji" style="top: 60%; right: 15%; animation-delay: 5s;">🌺</div>
+
+    <!-- Page 1: Gift Boxes -->
+    <div class="page-content">
+        <h1>🎁 Open Your Gifts! 🎁</h1>
+        <div class="gift-container">
+            <div class="gift-box" onclick="openGift(this)">
+                <div class="gift-wrapper">
+                    <div class="gift-ribbon"></div>
+                    <img src="photo_2026-01-16_08-36-55.jpg" alt="Our Beautiful Memories 💕" class="gift-image">
+                </div>
+            </div>
+            <div class="gift-box" onclick="openGift(this)">
+                <div class="gift-wrapper">
+                    <div class="gift-ribbon"></div>
+                    <img src="photo_2026-01-16_08-37-07.jpg" alt="Special Moments Together 💖" class="gift-image">
+                </div>
+            </div>
+            <div class="gift-box" onclick="openGift(this)">
+                <div class="gift-wrapper">
+                    <div class="gift-ribbon"></div>
+                    <img src="photo_2026-01-16_08-37-30.jpg" alt="Our Love Story ✨" class="gift-image">
+                </div>
+            </div>
+        </div>
+        <a href="page2.html" class="special-button" onclick="revealSpecial(event)">
+            ✨ Click to reveal something special ✨
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
